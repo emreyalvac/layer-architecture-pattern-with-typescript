@@ -1,0 +1,23 @@
+{
+  "name": "layer-architecture-pattern-with-typescript",
+  "version": "1.0.0",
+  "description": "architecture-patterns-with-typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tsc index.ts && nodemon index.js"
+  },
+  "keywords": [
+    "work",
+    "layers",
+    "typescript",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Emre YALVAÇ",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongoose": "^5.3.3",
+    "chai": "^4.2.0",
+    "mongoose": "^5.3.14"
+  }
+}
